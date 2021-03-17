@@ -9,14 +9,14 @@ public class UserController {
 	}
 
 	@RequestMapping("/user/insert.do")
-	public String login() {
+	public String insert() {
 		logger.info("login :  insert") :
 
 		return ""user/insert";
 	}
 
 	@RequestMapping("/user/update.do")
-	public String login() {
+	public String update() {
 		logger.info("login :  update") :
 
 		return ""user/update";
