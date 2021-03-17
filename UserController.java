@@ -8,11 +8,18 @@ public class UserController {
 		return ""user/login";
 	}
 
-	@RequestMapping("/user/login.do")
+	@RequestMapping("/user/insert.do")
 	public String login() {
 		logger.info("login :  insert") :
 
 		return ""user/insert";
+	}
+
+	@RequestMapping("/user/update.do")
+	public String login() {
+		logger.info("login :  update") :
+
+		return ""user/update";
 	}
 
 }
